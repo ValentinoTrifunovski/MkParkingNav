@@ -1,0 +1,15 @@
+Објаснување:
+
+На почеток е превземена датотеката Macedonia-latest.osm.pbf, потоа кон неа се пристапува во фолдерот во која е лоцирана со соодветните команди, потоа се конвертира датотеката macedonia-latest.osm.pbf во macadonia.05m, од која со соодветни филтри се филтрираат само податоците за паркинг локации и истите се пренасочуваат во csv тип датотека.
+
+
+Код:   
+
+“osmfilter macedonia.o5m --keep="amenity=parking amenity=parking_space " | osmconvert - --all-to-nodes --csv="@id addr:city name addr:street @lat @lon" --csv-headline --csv-separator="," -o="test2.csv".
+
+
+Листа на користени линкови:
+
+https://download.geofabrik.de/europe/macedonia.html
+https://wiki.openstreetmap.org/wiki/Osmfilter
+https://wiki.openstreetmap.org/wiki/Osmconvert

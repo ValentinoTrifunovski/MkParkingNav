@@ -1,0 +1,23 @@
+WebApp UI:
+	Show Places 
+	Display Map 
+	Display Parking Places
+User management:
+	Sign up
+	Sign in 
+Parking Locate Service:
+	Choose a location
+	Choose a certain parking place
+Admin Panel:
+	Show parking places
+	Sort amenities in use of the system
+Admin Service:
+	Add amenities 
+	Delete amenities
+	Add manager account
+	Delete manager account
+Manager Panel:
+	Update available parking
+Database:
+	Fetch information 
+	Store information
